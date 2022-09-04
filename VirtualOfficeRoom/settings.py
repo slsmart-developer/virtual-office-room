@@ -59,6 +59,8 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
+STATICFILES_STORAGE = 'whitenoise.storage.CompressdManifestStaticFilesStorage'
+
 ROOT_URLCONF = 'VirtualOfficeRoom.urls'
 
 TEMPLATES = [
