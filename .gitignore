@@ -1,0 +1,7 @@
+# Byte-compiled / optimized / DLL files
+
+db.sqlite3
+
+venv
+
+# static/*

@@ -1,0 +1,1 @@
+web gunicorn VirtualOfficeRoom.wsgi:application --log-file -
